@@ -2096,7 +2096,7 @@ and also make use of these options.
 
    .. code-block:: javascript
 
-      const Scorer = {
+      var Scorer = {
           // Implement the following function to further tweak the score for each result
           score: result => {
             const [docName, title, anchor, descr, score, filename] = result
